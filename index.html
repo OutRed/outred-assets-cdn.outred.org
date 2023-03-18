@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>OutRed | Games</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link href='https://css.gg/search.css' rel='stylesheet'>
+    <script async src="https://arc.io/widget.min.js#U4o8gDrC"></script>
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-B5MYT5J8LH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-B5MYT5J8LH');
+</script>
+  </head>
+  <body>
+    <!-- Start code -->
+    <div class="nav">
+      <a href="/index.html"><img class="logo" src="https://raw.githubusercontent.com/OutRed/outred.github.io/main/img/standard%20(3).gif"></a>
+      <a href="/index.html">Home</a>
+      <a class="active" href="#g">Games</a>
+      <a href="/main/apps.html">Apps</a>
+      <a class="alert" onclick="alert('Hello there!\n\ \n\The proxies are now located under the apps page.');">Proxies</a>
+      <a href="/main/hacks.html">Hacks</a>
+      <a href="/main/settings.html">Settings</a>
+      <div class="search-toggle"><i onclick="navSearch()" class="gg-search"></i></div>
+  </div>
+  <br>
+  <h1 class="title">Games</h1>
+  <h1>Hey you! Join the <a class="hyperlink" href="https://discord.gg/89NGVfR7ja">Discord server</a>!</h1>
+  <div class="line"></div>
+  <br>
+  <br>
+<!-- Image grid -->
+<div class="search">
+  <input type="text" class="search-input" placeholder="Search for games...">
+</div>
+<br>
+<br>
+    <center><div class="games"></div></center>
+    <br>
+    <br>
+    <!-- Script to file for image grid -->
+<script>
+  const input = document.getElementById("my-input");
+
+input.addEventListener("focus", function() {
+  input.classList.remove("center-placeholder");
+  input.classList.add("left-placeholder");
+});
+
+input.addEventListener("blur", function() {
+  input.classList.remove("left-placeholder");
+  input.classList.add("center-placeholder");
+});
+
+</script>
+    <script src="/js/game.js"></script>
+    <script src="/js/navsearch.js"></script>
+    <div class="line"></div>
+    <footer><h2>© OutRed 2023</h2></footer>
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+      new Crate({
+          server: '1012472708010889217', // OutRed Hub
+          channel: '1056002719757914212' // #❌│website-chat
+          notifications: false
+      })
+  </script>
+  </body>
+</html>
